@@ -56,7 +56,7 @@ addIngredient("black_gojiberry",{
     type:"berry",
     shape:"fruit_nub_thick",
     scale:0.5,
-    reactions: {
+    reactions: {https://toonsquid.com/handbook/guides/marker_animation/
         water: { set1:"tea" , set2:null },
     },
 });
@@ -85,4 +85,10 @@ addIngredient("edameme_beans",{
     type:"bean",
     color:"#a0ce5e",
     hidden:true
+});
+
+addIngredient("earth",{
+    type:"fruit",
+    color:"#0055ff",
+    shape:"fruit"
 });
